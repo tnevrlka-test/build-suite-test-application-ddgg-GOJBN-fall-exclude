@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: test-annotations-ugwr
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-aklj-tenant/build-suite-test-application-ddgg/test-annotations-ugwr@sha256:301a2b563ddf1b75131eec977e14327c3017a461ce307c95d8182389074cb320
+        name: my-nginx
+        resources: {}
+status: {}
